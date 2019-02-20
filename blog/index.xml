@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Jasonelle</title>
-    <link>/</link>
-    <description>Recent content on Jasonelle</description>
+    <title>Blogs on Jasonelle</title>
+    <link>/blog/</link>
+    <description>Recent content in Blogs on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 20 Feb 2019 09:30:26 -0300</lastBuildDate>
     
-	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -21,15 +21,6 @@
 This was expected since we didn&amp;rsquo;t have any access to the server or the domain configuration.
 This means that other pages may dissapear as well like jasonette.com, celljs.org. Since we cannot pay for the servers to continue running.
 Alternatives Jasonbase&amp;rsquo;s focus was to make easier to share JSON files, mainly used for Jasonette projects.</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>/about/</link>
-      <pubDate>Sun, 18 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Jasonelle</description>
     </item>
     
   </channel>
