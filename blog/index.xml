@@ -6,10 +6,23 @@
     <description>Recent content in Blogs on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Feb 2019 09:30:26 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 20 Feb 2019 10:28:55 -0300</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jason App Is Not Working</title>
+      <link>/blog/jasonapp-is-not-working/</link>
+      <pubDate>Wed, 20 Feb 2019 10:28:55 -0300</pubDate>
+      
+      <guid>/blog/jasonapp-is-not-working/</guid>
+      <description>As we previously said jasonbase.com is down and many projects that depends on it may not be working.
+One of such projects is Jason App. Thankfully we could obtain the json before jasonbase.com&amp;rsquo;s death.
+In order to keep using Jason App you should compile a new Jasonette project and direct to the file here
+https://raw.githubusercontent.com/jasonelle/docs/develop/examples/jasonette/apps/jason-app/index.json
+If you correctly compile you should now have a working copy of the Jason App</description>
+    </item>
     
     <item>
       <title>Jasonbase Is Down</title>
