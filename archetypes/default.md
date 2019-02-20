@@ -1,7 +1,7 @@
 +++
 title = "{{ replace .Name "-" " " | title }}"
 subtitle = ""
-date = {{ .Date }}
+date = "{{ now.Format "2006-01-02" }}"
 draft = true
 +++
 

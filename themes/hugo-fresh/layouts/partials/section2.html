@@ -12,28 +12,26 @@
         </div>
       </div>
       <div class="columns">
-        <div class="column is-2"></div>
         <div class="column">
           {{- range $features }}
           <article class="media icon-box">
-            <figure class="media-left">
+            <!-- <figure class="media-left">
               <p class="image">
                 <img src="{{ printf "%s.svg" .icon | absURL }}">
               </p>
-            </figure>
-            <div class="media-content mt-50">
+            </figure> -->
+            <div class="media-content">
               <div class="content">
                 <p>
                   <span class="icon-box-title">{{ .title }}</span>
 
-                  <span class="icon-box-text">{{ .text }}</span>
+                  <span class="icon-box-text">{{ .text | safeHTML}}</span>
                 </p>
               </div>
             </div>
           </article>
           {{- end }}
         </div>
-        <div class="column is-2"></div>
     </div>
   </div>
 </section>

@@ -59,7 +59,7 @@ params:
     subtitle: Because it's awesome.
     features:
     - title: Powerful and unified language
-      text: JSON is an industry standard today. Computers can understand it and humans too!. You can always use transpilers like hjson to ease development.
+      text: JSON is an industry standard today. Computers can understand it and humans too!. You can always use transpilers like <a href="https://hjson.org">hjson</a> to ease development.
       # Icon (from /images/illustrations/icons/___.svg)
       icon: laptop-globe
     - title: Easy to learn
@@ -74,22 +74,22 @@ params:
     image: demo-jasonette-optimized.gif
     buttonText: Get started
     buttonLink: "/docs"
-  section4:
-    title: Jasonelle's Reviews
-    subtitle: 
-    clients:
-    - name: Christian M.
-      quote: With Jasonette I finished my Android prototype in record time for my University project!.
-      job: Developer
-      img: 2
-    - name: Camilo C.
-      quote: Jasonelle brings me joy!. It's a wonderful and innovative way of crafting apps.
-      job: Sofware Forgemaster
-      img: 3
-    - name: You
-      quote: Jasonelle Family Rulz!.
-      job: Awesome Human
-      img: 1
+  section4: {}
+    # title: Jasonelle's Reviews
+    # subtitle: 
+    # clients:
+    # - name: Christian M.
+    #   quote: With Jasonette I finished my Android prototype in record time for my University project!.
+    #   job: Developer
+    #   img: 2
+    # - name: Camilo C.
+    #   quote: Jasonelle brings me joy!. It's a wonderful and innovative way of crafting apps.
+    #   job: Sofware Forgemaster
+    #   img: 3
+    # - name: You
+    #   quote: Jasonelle Family Rulz!.
+    #   job: Awesome Human
+    #   img: 1
   footer:
     # Logo (from /images/logos/___)
     logo: ninja.svg
@@ -103,35 +103,35 @@ params:
         title: "Support & Help"
     quicklinks:
       column1:
-        title: "Product"
-        links:
-        - text: Discover features
-          link: /
-        - text: Why choose our product?
-          link: /
-        - text: Compare features
-          link: /
-        - text: Our roadmap
-          link: /
-        - text: Request features
-          link: /
+        title: ""
+        links: []
+        # - text: Discover features
+        #   link: /
+        # - text: Why choose our product?
+        #   link: /
+        # - text: Compare features
+        #   link: /
+        # - text: Our roadmap
+        #   link: /
+        # - text: Request features
+        #   link: /
       column2:
         title: "Docs"
         links:
         - text: Get started
-          link: /
-        - text: User guides
-          link: /
-        - text: Admin guide
-          link: /
-        - text: Developers
-          link: /
+          link: /docs
+        # - text: User guides
+        #   link: /
+        # - text: Admin guide
+        #   link: /
+        # - text: Developers
+        #   link: /
       column3:
-        title: "Blog"
+        title: "News"
         links:
         - text: Latest news
-          link: /
-        - text: Tech articles
-          link: /
-        - text: Video blog
-          link: /
+          link: /blog
+        # - text: Tech articles
+        #   link: /
+        # - text: Video blog
+        #   link: /
