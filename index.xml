@@ -6,10 +6,23 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 20 Feb 2019 10:28:55 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 24 Feb 2019 00:39:39 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jasonbase New Version</title>
+      <link>/blog/jasonbase-new-version/</link>
+      <pubDate>Sun, 24 Feb 2019 00:39:39 -0300</pubDate>
+      
+      <guid>/blog/jasonbase-new-version/</guid>
+      <description>Well today I dedicated the entire day working on a new version of JasonBase, since the old one is dead.
+You can access and use it now in https://base.jasonelle.com
+And of course see the code at https://github.com/jasonelle/jasonbase
+Main Differences This is a list of differences.
+   Old New     Private Source Code Available in Github   Made in Ruby on Rails Made with PHP and ProcessWire   User and Password No User-Password only Private Link   Full code editor Just a simple Textarea   Only Json supported in input Json and HJson Supported in input   Output non minimized Minimized output   Intended for Production Intended for Testing and Quick Sharing   Made by Ethan Made by CLSource    The focus on the new Jasonbase is only on the code sharing part.</description>
+    </item>
     
     <item>
       <title>Jason App Is Not Working</title>
