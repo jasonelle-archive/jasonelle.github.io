@@ -6,10 +6,33 @@
     <description>Recent content in Blogs on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Feb 2019 00:39:39 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 18:57:27 -0300</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Cell.js No Longer Maintained</title>
+      <link>/blog/cell-js-is-deprecated/</link>
+      <pubDate>Thu, 28 Feb 2019 18:57:27 -0300</pubDate>
+      
+      <guid>/blog/cell-js-is-deprecated/</guid>
+      <description>Cell.js is an amazing web framework created by Ethan. It&amp;rsquo;s main goal was to simplify web development using JSON like structures.
+Jasonelle Team decided that no longer will invest time in Cell.js development.
+The main reason is the following:
+ Jasonelle will be about Mobile App Development. Web development will not be the focus for Jasonelle.
+ A framework to be succesfully be adopted, needs a huge amount of work, examples and documentation.</description>
+    </item>
+    
+    <item>
+      <title>Jasonette 2 development will begin</title>
+      <link>/blog/jasonette-2/</link>
+      <pubDate>Thu, 28 Feb 2019 18:57:27 -0300</pubDate>
+      
+      <guid>/blog/jasonette-2/</guid>
+      <description>The current version of Jasonette (Android and iOS) will stop to be futher maintained with bug fixes or new features. The reason is that all the time and energy will be focused on a new version of Jasonette.
+Objectives  Backward compatible with Jasonette 1. So you don&amp;rsquo;t have to learn anything new. Modular Code. So it&amp;rsquo;s easier to understands what&amp;rsquo;s going on behind scenes.  iOS The first platform to be supported will be iOS since it&amp;rsquo;s the platform that Jasonelle team have better expertise.</description>
+    </item>
     
     <item>
       <title>Jasonbase New Version</title>
