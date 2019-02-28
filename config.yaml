@@ -11,7 +11,7 @@ params:
     # Main hero title
     title: Jasonelle
     # Hero subtitle (optional)
-    subtitle: Create iOS, Android and Web Apps with JSON
+    subtitle: Create iOS and Android Apps with JSON
     # Button text
     buttontext: Get started
     # Where the main hero button links to
@@ -44,10 +44,10 @@ params:
       text: Make Native iOS and Android apps with JSON.
       url: /docs
       buttonText: Get started
-    - title: Cell.js
+    - title: Jasonbase
       icon: laptop-cloud
-      text: Create amazing web apps using JSON Cells.
-      url: /docs
+      text: Share your JSON easily. Copy and paste them and test!.
+      url: https://base.jasonelle.com
       buttonText: Get started
     - title: SelectTransform.js
       icon: plug-cloud
@@ -131,7 +131,7 @@ params:
         links:
         - text: Latest news
           link: /blog
-        # - text: Tech articles
-        #   link: /
+        - text: Roadmap
+          link: /roadmap
         # - text: Video blog
         #   link: /
