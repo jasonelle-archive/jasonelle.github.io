@@ -1,0 +1,37 @@
+{{- $section2 := .Site.Params.section2 }}
+{{- $title    := index $section2 "title" }}
+{{- $subtitle := index $section2 "subtitle" }}
+{{- $features := index $section2 "features" }}
+<section class="section is-medium">
+  <div class="container">
+      <div class="columns">
+        <div class="column is-centered-tablet-portrait">
+          <h1 class="title section-title">{{ $title }}</h1>
+          <h3 class="subtitle is-5 is-muted">{{ $subtitle }}</h3>
+          <div class="divider"></div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          {{- range $features }}
+          <article class="media icon-box">
+            <!-- <figure class="media-left">
+              <p class="image">
+                <img src="{{ printf "%s.svg" .icon | absURL }}">
+              </p>
+            </figure> -->
+            <div class="media-content">
+              <div class="content">
+                <p>
+                  <span class="icon-box-title">{{ .title }}</span>
+
+                  <span class="icon-box-text">{{ .text | safeHTML}}</span>
+                </p>
+              </div>
+            </div>
+          </article>
+          {{- end }}
+        </div>
+    </div>
+  </div>
+</section>
