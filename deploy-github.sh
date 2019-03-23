@@ -3,7 +3,9 @@
 set -e
 
 rm -rf src
+rm -rf .git
 
+echo "Clonning Master"
 
 git clone -b master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git web
 
