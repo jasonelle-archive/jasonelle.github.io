@@ -1,3 +1,3 @@
 #!/usr/bin/env sh
 
-docker run --rm -v $PWD/src:/src yanqd0/hugo /bin/sh -c 'cd /src && /src/build.sh'
+docker run --rm -v $PWD:/source yanqd0/hugo /bin/sh -c 'cd /source/src && hugo && mv /source/src/public /source/site'

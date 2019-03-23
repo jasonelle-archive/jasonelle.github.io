@@ -2,8 +2,6 @@
 
 set -e
 
-mv -f ./src/public ./site
-
 rm -rf src
 
 git clone -b master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git .
