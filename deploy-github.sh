@@ -4,13 +4,15 @@ set -e
 
 rm -rf src
 
-git commit -m 'added site'
 
-git pull origin master
+git clone -b master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git web
 
-cp -rf ./site/* .
+cd web
+find . -not -name ".git" | xargs rm -rf
 
-rm -rf ./site
+cp -rf ../site/* .
+
+rm -rf ../site
 
 git add --all *
 git commit -m "deployed docs (travis build ${TRAVIS_BUILD_NUMBER})"
