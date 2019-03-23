@@ -1,16 +1,17 @@
 #!/usr/bin/env sh
 
+# Exit on any error
 set -e
 
 rm -rf src
 rm -rf .git
 
-echo "Clonning Master"
-
 git clone -b master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git web
 
 cd web
-find . -not -name ".git" | xargs rm -rf
+
+#                                                         continue exec if error
+find . -not -path "./.git*" -not -name "." | xargs rm -rf || true
 
 cp -rf ../site/* .
 
