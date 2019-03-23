@@ -4,7 +4,11 @@ set -e
 
 rm -rf src
 
-cp -r ./site/* .
+git commit -m 'added site'
+
+git pull origin master
+
+cp -rf ./site/* .
 
 rm -rf ./site
 
