@@ -6,10 +6,21 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 28 Feb 2019 18:57:27 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 19 Mar 2019 14:49:27 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jasonette Old Docs Migrated</title>
+      <link>/blog/jasonette-old-docs-migrated/</link>
+      <pubDate>Tue, 19 Mar 2019 14:49:27 -0300</pubDate>
+      
+      <guid>/blog/jasonette-old-docs-migrated/</guid>
+      <description>In order to future proof http://docs.jasonette.com/ we migrated the latest build of those docs to https://jasonelle.com/jasonette-old-docs/.
+It was a complete copy with no modifications. So maybe some links could die.
+Expect better docs in https://jasonelle.com/docs/.</description>
+    </item>
     
     <item>
       <title>Cell.js No Longer Maintained</title>
@@ -17,7 +28,7 @@
       <pubDate>Thu, 28 Feb 2019 18:57:27 -0300</pubDate>
       
       <guid>/blog/cell-js-is-deprecated/</guid>
-      <description>Cell.js is an amazing web framework created by Ethan. It&amp;rsquo;s main goal was to simplify web development using JSON like structures.
+      <description>Cell.js was an amazing web framework created by Ethan. It&amp;rsquo;s main goal was to simplify web development using JSON like structures.
 Jasonelle Team decided that no longer will invest time in Cell.js development.
 The main reason is the following:
  Jasonelle will be about Mobile App Development. Web development will not be the focus for Jasonelle.
