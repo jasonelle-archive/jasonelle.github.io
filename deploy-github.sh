@@ -4,16 +4,12 @@ set -e
 
 rm -rf src
 
-git clone -b master https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG}.git .
-
-find . -not -name ".git" | xargs rm -rf
-
-cp -r ./site/* ./
+cp -r ./site/* .
 
 rm -rf ./site
 
 git add --all *
 git commit -m "deployed docs (travis build ${TRAVIS_BUILD_NUMBER})"
-git push -q -f origin master
+git push -q -f origin master --allow-unrelated-histories
 
 echo "Deployed"
