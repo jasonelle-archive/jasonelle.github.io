@@ -10,6 +10,5 @@ rm -rf ./site
 
 git add --all *
 git commit -m "deployed docs (travis build ${TRAVIS_BUILD_NUMBER})"
-git push -q -f origin master --allow-unrelated-histories
-
+git push -q -f origin master
 echo "Deployed"
