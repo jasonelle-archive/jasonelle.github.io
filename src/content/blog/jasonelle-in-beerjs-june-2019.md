@@ -10,3 +10,8 @@ Have lots of wonderful conversations and fun time talking
 about Mobile Apps in the modern world using *Jasonelle*.
 
 Hope many more meetups can be arranged in the future!.
+
+If you want to access the code and presentation, all the 
+code and slides are here:
+
+[https://github.com/jasonelle/beerjs](https://github.com/jasonelle/beerjs)
