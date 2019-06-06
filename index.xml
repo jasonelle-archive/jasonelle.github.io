@@ -6,10 +6,21 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 19 Mar 2019 14:49:27 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 06 Jun 2019 14:27:37 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jasonelle in BeerJS Chile, June 2019</title>
+      <link>/blog/jasonelle-in-beerjs-june-2019/</link>
+      <pubDate>Thu, 06 Jun 2019 14:27:37 -0400</pubDate>
+      
+      <guid>/blog/jasonelle-in-beerjs-june-2019/</guid>
+      <description>Yesterday we presented Jasonelle in the meetup BeerJS Santiago Chile June 2019.
+Have lots of wonderful conversations and fun time talking about Mobile Apps in the modern world using Jasonelle.
+Hope many more meetups can be arranged in the future!.</description>
+    </item>
     
     <item>
       <title>Jasonette Old Docs Migrated</title>
