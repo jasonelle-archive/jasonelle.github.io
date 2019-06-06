@@ -1,5 +1,7 @@
 ---
 title: "Jasonelle in BeerJS Chile, June 2019"
+subtitle: "Jasonelle Presented in Society"
+author: "@clsource"
 date: 2019-06-06T14:27:37-04:00
 draft: false
 ---
