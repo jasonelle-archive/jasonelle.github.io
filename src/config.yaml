@@ -28,6 +28,9 @@ params:
   - title: Home
     url: /
     icon: "home"
+  - title: News
+    url: /blog
+    icon: "rss"
   - title: Docs
     url: /docs
     icon: "pencil"
