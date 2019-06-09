@@ -6,10 +6,33 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 06 Jun 2019 14:27:37 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 09 Jun 2019 11:49:27 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>One Year Without Ethan</title>
+      <link>/blog/one-year-without-ethan/</link>
+      <pubDate>Sun, 09 Jun 2019 11:49:27 -0300</pubDate>
+      
+      <guid>/blog/one-year-without-ethan/</guid>
+      <description>Today marks one year after Ethan left the digital world.
+Ethan was a tremendous human being, someone you can trust and have a good conversation of about any topic.
+We really want to think that he took a super long vacation and someday will return. We maintain the hopes high.
+This is similar to the https://en.wikipedia.org/wiki/Waiting_for_Godot tragicomedy.
+In this day we want to highlight a tweet he wrote in response to this question.</description>
+    </item>
+    
+    <item>
+      <title>Jasonette Old Blog Migrated</title>
+      <link>/blog/jasonette-old-blog-migrated/</link>
+      <pubDate>Sat, 08 Jun 2019 14:49:27 -0300</pubDate>
+      
+      <guid>/blog/jasonette-old-blog-migrated/</guid>
+      <description>In order to future proof http://blog.jasonette.com/ we migrated the latest build of those blog posts to http://jasonelle.com/jasonette-old-blog/.
+It was a complete copy with small modification to fix missing images and links to the old docs.</description>
+    </item>
     
     <item>
       <title>Jasonelle in BeerJS Chile, June 2019</title>
