@@ -34,6 +34,9 @@ params:
   - title: Github
     url: https://github.com/jasonelle/jasonelle
     icon: "github"
+  - title: Slack
+    url: https://jasonette.now.sh/
+    icon: "slack"
   
   section1:
     title: Jasonelle Family
