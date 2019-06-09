@@ -42,17 +42,17 @@ params:
     - title: Jasonette
       icon: mobile-feed
       text: Make Native iOS and Android apps with JSON.
-      url: /docs
+      url: /docs/jasonette.html
       buttonText: Get started
     - title: Jasonbase
       icon: laptop-cloud
       text: Share your JSON easily. Copy and paste them and test!.
       url: https://base.jasonelle.com
       buttonText: Get started
-    - title: SelectTransform.js
+    - title: Ja.js
       icon: plug-cloud
       text: Create your own JSON template languages!.
-      url: /docs
+      url: /docs/ja-js-selector-transformer.html
       buttonText: Get started
   section2:
     title: Why use JSON to create Apps?
@@ -100,7 +100,7 @@ params:
       icon: github
     bulmalogo: false
     followus:
-        title: "Support & Help"
+        title: "Links"
     quicklinks:
       column1:
         title: ""
@@ -118,10 +118,10 @@ params:
       column2:
         title: "Docs"
         links:
-        - text: Get started
+        - text: Read Documentation
           link: /docs
-        # - text: User guides
-        #   link: /
+        - text: Join Slack Community
+          link: https://jasonette.now.sh/
         # - text: Admin guide
         #   link: /
         # - text: Developers
