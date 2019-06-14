@@ -6,7 +6,10 @@ date: "2019-06-13T12:43:15-04:00"
 draft: false
 ---
 
-Thanks to `@schweini` for asking this in the issue repo ([https://github.com/jasonelle/jasonelle/issues/42](https://github.com/jasonelle/jasonelle/issues/42)).
+Thanks to [@schweini](https://github.com/schweini) for asking this in the issue repo ([https://github.com/jasonelle/jasonelle/issues/42](https://github.com/jasonelle/jasonelle/issues/42)).
+
+
+And super thanks to [@TakaKeiji](https://github.com/TakaKeiji) for helping building the APK.
 
 
 Now you can download the `APK` for the *Jason App* and start testing
