@@ -6,10 +6,21 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 13 Jun 2019 12:43:15 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 16 Jul 2019 12:27:40 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Welcome Ignacio</title>
+      <link>/blog/welcome-ignacio/</link>
+      <pubDate>Tue, 16 Jul 2019 12:27:40 -0400</pubDate>
+      
+      <guid>/blog/welcome-ignacio/</guid>
+      <description>Today is a happy day. Ignacio Álvarez (AKA @Panterozo) will be our core maintainer for Jasonette Android.
+He will help Jasonelle in the following areas:
+ Keep Android code up to date. Improve code and docs to be cleaner and robust. Help resolving Android questions. Fix bugs. Review code in pull requests. Participate in Roadmap definition. Other Jasonelle related tasks.  Jasonelle Team is proud of it&amp;rsquo;s new member and wish him lots of love.</description>
+    </item>
     
     <item>
       <title>Jason App APK is Ready to be Used</title>
