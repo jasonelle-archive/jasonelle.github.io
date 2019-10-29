@@ -6,10 +6,21 @@
     <description>Recent content in Blogs on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 16 Jul 2019 12:27:40 -0400</lastBuildDate>
+    <lastBuildDate>Mon, 28 Oct 2019 22:55:09 -0300</lastBuildDate>
     
 	<atom:link href="/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jasonette 2 Release Date!</title>
+      <link>/blog/jasonette-2.0-release-date/</link>
+      <pubDate>Mon, 28 Oct 2019 22:55:09 -0300</pubDate>
+      
+      <guid>/blog/jasonette-2.0-release-date/</guid>
+      <description>On November 6th it will be a whole year since the beginning of this humble project. We made a lot of changes, bug fixes and some new features to the Jasonette code base since Ethan left.
+Expect a new release near the second week of November 2019. This will be stored in the https://github.com/jasonelle/jasonelle repository, in the releases tab.
+Future plans? After learning the inner workings of the Jasonette code base and a lot of feedback made in the community we discovered that many issues could be solved by simplifyng the code base.</description>
+    </item>
     
     <item>
       <title>Welcome Ignacio</title>
