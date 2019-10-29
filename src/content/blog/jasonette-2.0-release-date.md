@@ -38,11 +38,11 @@ coded by *Ethan* and friends. But as it was rushed, the codebase feels
 messy and a lot of code could be improved to be more robust, friendly and
 easier to maintain.
 
-So after much deliveration we decided that *Jasonelle 3.0* will be a total
+So after much deliberation we decided that *Jasonelle 3.0* will be a total
 new core both in Android and iOS. This is surely a task that could raise
 some eyebrows. But in the long run it would ease the development flow 
 bringing new opportunities for growth. Today we have a clearer picture 
-of the goals set originally by *Ethan* and can implement a better arquitecture
+of the goals set originally by *Ethan* and can implement a better architecture
 that supports such vision.
 
 The important thing is that it will be backwards compatible with the current
