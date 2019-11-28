@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jasonelle</title>
@@ -123,7 +123,7 @@ Objectives  Backward compatible with Jasonette 1. So you don&amp;rsquo;t have to
       
       <guid>/roadmap/</guid>
       <description> The following features are planned for upcoming versions of the Jasonelle components. These are not the only features planned, they are just a taste.
-Jasonette 2  Complete Engine Rewrite. Backward Compatible. Component Modularization.  Jay  Transforms JSX like documents to JSON in order to ease development.  Jazz  Jasonette JSON linter. Detects errors on build time.  </description>
+Jasonette 3  Complete Engine Rewrite. Backward Compatible. Component Modularization.  </description>
     </item>
     
     <item>
