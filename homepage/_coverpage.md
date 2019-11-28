@@ -7,7 +7,7 @@
 - Simple to learn and use.
 - No packages to install or files to build.
 
-[Get Started](https://jasonelle.com/docs)
+[Get Started](#quick-start)
 [Blog](https://jasonelle.com/blog)
 [GitHub](https://github.com/jasonelle)
 
