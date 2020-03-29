@@ -3,7 +3,7 @@ title: "Jasonette 3 Ideas and Thoughts"
 subtitle: "The plans for the new version"
 author: "clsource"
 date: "2020-03-29T12:12:55-03:00"
-draft: true
+draft: false
 ---
 
 ## Jasonette Beginnings
