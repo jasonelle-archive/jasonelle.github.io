@@ -78,7 +78,7 @@ _Jasonette_ already used _Javascript_ to transform _JSON_ and evaluate inline co
 
 ### Kernel and Modules
 
-The arquitecture will transform to be more modular, using a _[Kernel](https://en.wikipedia.org/wiki/Kernel_(operating\*system))\_ that handles operating
+The arquitecture will transform to be more modular, using a [Kernel](<https://en.wikipedia.org/wiki/Kernel_(operating*system)>) that handles operating
 system tasks and all the other features would be implemented as easy to change modules.
 Providing easier _maintanability_, _extendability_ and overal _slimness_ of the code base.
 
