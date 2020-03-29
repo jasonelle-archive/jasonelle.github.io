@@ -6,10 +6,21 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 28 Oct 2019 22:55:09 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 29 Mar 2020 12:12:55 -0300</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jasonette 3 Ideas and Thoughts</title>
+      <link>/blog/jasonette-3-plans/</link>
+      <pubDate>Sun, 29 Mar 2020 12:12:55 -0300</pubDate>
+      
+      <guid>/blog/jasonette-3-plans/</guid>
+      <description>Jasonette Beginnings Jasonette was born in early 2016 and made it&amp;rsquo;s public debut in October 2016.
+These are the technical hightlights that Ethan defined for Jasonette.
+Features  App loads over HTTP: Your app exists 100% as JSON, and loads from the cloud. No more hard-coding. An app in 30 minutes: No kidding, build an app in 30 minutes. Lowest possible learning curve: No programming experience required. There&amp;rsquo;s only one thing you need to know: JSON.</description>
+    </item>
     
     <item>
       <title>Jasonette 2 Release Date!</title>
