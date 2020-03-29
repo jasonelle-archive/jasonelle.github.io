@@ -6,7 +6,7 @@ theme: hugo-fresh
 params:
   font:
     name: "Open Sans"
-    sizes: [400,600]
+    sizes: [400, 600]
   hero:
     # Main hero title
     title: Jasonelle
@@ -25,64 +25,65 @@ params:
     link: "/"
     image: favicon.png
   navbar:
-  - title: Home
-    url: /
-    icon: "home"
-  - title: News
-    url: /blog
-    icon: "rss"
-  - title: Docs
-    url: /docs
-    icon: "pencil"
-  - title: Github
-    url: https://github.com/jasonelle/jasonelle
-    icon: "github"
-  - title: Slack
-    url: https://jasonette.now.sh/
-    icon: "slack"
-  
+    - title: Home
+      url: /
+      icon: "home"
+    - title: News
+      url: /blog
+      icon: "rss"
+    - title: Docs
+      url: /docs
+      icon: "pencil"
+    - title: Github
+      url: https://github.com/jasonelle/jasonelle
+      icon: "github"
+    - title: Telegram
+      url: https://t.me/jasonelle
+      icon: "paper-plane"
+
   section1:
     title: Jasonelle Family
     subtitle: Components that will bring you joy!
     tiles:
-    - title: Jasonette
-      icon: mobile-feed
-      text: Make Native iOS and Android apps with JSON.
-      url: /docs/jasonette.html
-      buttonText: Get started
-    - title: Jasonbase
-      icon: laptop-cloud
-      text: Share your JSON easily. Copy and paste them and test!.
-      url: https://base.jasonelle.com
-      buttonText: Get started
-    - title: Jay
-      icon: plug-cloud
-      text: Use JSX to create JSON!.
-      url: /docs/ja-js-selector-transformer.html
-      buttonText: Get started
+      - title: Jasonette
+        icon: mobile-feed
+        text: Make Native iOS and Android apps with JSON.
+        url: /docs
+        buttonText: Get started
+    # - title: Jasonbase
+    #   icon: laptop-cloud
+    #   text: Share your JSON easily. Copy and paste them and test!.
+    #   url: https://base.jasonelle.com
+    #   buttonText: Get started
+    # - title: Jay
+    #   icon: plug-cloud
+    #   text: Use JSX to create JSON!.
+    #   url: /docs/ja-js-selector-transformer.html
+    #   buttonText: Get started
   section2:
     title: Why use JSON to create Apps?
     subtitle: Because it's awesome.
     features:
-    - title: Powerful and unified language
-      text: JSON is an industry standard today. Computers can understand it and humans too!. You can always use transpilers like <a href="https://hjson.org">hjson</a> to ease development.
-      # Icon (from /images/illustrations/icons/___.svg)
-      icon: laptop-globe
-    - title: Easy to learn
-      text: By using a simple language like JSON you can learn and implement faster. Saving time and delivering more results.
-      icon: doc-sync
-    - title: Huge Ecosystem
-      text: Nearly every software today supports JSON. Finding professionals and creating tools that understands JSON will be a piece of cake!.
-      icon: mouse-globe
+      - title: Powerful and unified language
+        text: JSON is an industry standard today. Computers can understand it and humans too!. You can always use transpilers like <a href="https://hjson.org">hjson</a> to ease development.
+        # Icon (from /images/illustrations/icons/___.svg)
+        icon: laptop-globe
+      - title: Easy to learn
+        text: By using a simple language like JSON you can learn and implement faster. Saving time and delivering more results.
+        icon: doc-sync
+      - title: Huge Ecosystem
+        text: Nearly every software today supports JSON. Finding professionals and creating tools that understands JSON will be a piece of cake!.
+        icon: mouse-globe
   section3:
     title: Deliver results
     subtitle: easier, faster, happier
     image: demo-jasonette-optimized.gif
     buttonText: Get started now!
     buttonLink: "/docs"
-  section4: {}
+  section4:
+    {}
     # title: Jasonelle's Reviews
-    # subtitle: 
+    # subtitle:
     # clients:
     # - name: Christian M.
     #   quote: With Jasonette I finished my Android prototype in record time for my University project!.
@@ -101,12 +102,12 @@ params:
     logo: ninja.svg
     # Social media links (GitHub, Twitter, etc.). All are optional.
     socialmedia:
-    - link: https://github.com/jasonelle/jasonelle
-      # Icons are from Font Awesome
-      icon: github
+      - link: https://github.com/jasonelle/jasonelle
+        # Icons are from Font Awesome
+        icon: github
     bulmalogo: false
     followus:
-        title: "Links"
+      title: "Links"
     quicklinks:
       column1:
         title: ""
@@ -124,10 +125,10 @@ params:
       column2:
         title: "Docs"
         links:
-        - text: Read Documentation
-          link: /docs
-        - text: Join Slack Community
-          link: https://jasonette.now.sh/
+          - text: Read Documentation
+            link: /docs
+          - text: Join Telegram Community
+            link: https://t.me/jasonelle
         # - text: Admin guide
         #   link: /
         # - text: Developers
@@ -135,9 +136,9 @@ params:
       column3:
         title: "News"
         links:
-        - text: Latest news
-          link: /blog
-        - text: Roadmap
-          link: /roadmap
+          - text: Latest news
+            link: /blog
+          - text: Roadmap
+            link: /roadmap
         # - text: Video blog
         #   link: /
