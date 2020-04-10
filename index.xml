@@ -6,10 +6,20 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 29 Mar 2020 12:12:55 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 10 Apr 2020 14:27:54 -0400</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Will Apple forbid Cordova, React Native, Native Script and similar technologies?</title>
+      <link>/blog/apple-review-guidelines/</link>
+      <pubDate>Fri, 10 Apr 2020 14:27:54 -0400</pubDate>
+      
+      <guid>/blog/apple-review-guidelines/</guid>
+      <description>If you want your app to be inside the iOS ecosystem it must pass the Appstore Review Guidelines. Apple is known to be strict when approving apps. Since Cordova, React Native, Native Script and similars use Javascript, the sections 4.7 and 2.5.2 of the Appstore Review Guidelines and section 3.3.2 of the Apple Developer Program License Agreement are the most relevant to this use case.
+Appstore Review Guidelines - &amp;lsquo;2.</description>
+    </item>
     
     <item>
       <title>Jasonette 3 Ideas and Thoughts</title>
