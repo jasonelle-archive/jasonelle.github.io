@@ -60,3 +60,15 @@ _Jasonelle_ have a similar approach to app development as _React Native_. It exp
 We can only hope that technologies that relies on exposing native APIS to _Javascript Core_ can still be used, otherwise we will have to sadly put _Jasonelle_ to sleep and move to other adventures.
 
 We hope for the best outcome and keep working on _Jasonelle_ until that day.
+
+### Conclusion
+
+Reading this website https://www.appstorereviewguidelineshistory.com/ is clear that section `4.7` was present in previous years with small fixes on each year. That would mean that this rule is not heavily enforced and may be depend on the mood of the reviewer and your luck to be aproved, which is basically a normal app review process.
+
+But is probable that many apps will be forced to be PWA converted since they will not meet the desing guidelines of minimum functionality and app like aesthetic.
+
+There was an issue in Mac Appstore for electron apps. https://github.com/electron/electron/issues/20027, they, for a long period of time could send their apps using private apis (A not heavily enforced rule). But Apple changed and become more strict, so electron was forced to solve that issue with private apis.
+
+Our opinion is that projects that exposes native APIs to _Javascript Core_ will continue to be accepted, but Apple could change and be more strict about this rule in the future.
+
+Finally we can say that _Jasonelle_ is still viable technology to be used.
