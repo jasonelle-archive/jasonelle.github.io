@@ -6,10 +6,21 @@
     <description>Recent content on Jasonelle</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Apr 2020 14:27:54 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 03 May 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Android Privacy Policy</title>
+      <link>/android-privacy/</link>
+      <pubDate>Sun, 03 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>/android-privacy/</guid>
+      <description>Privacy Policy Jasonelle organization built the Jasonelle app. This SERVICE is provided by Jasonelle organization at no cost and is intended for use as is.
+This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+If you choose to use our Service, then you agree to the collection and use of information in relation to this policy.</description>
+    </item>
     
     <item>
       <title>Will Apple forbid Cordova, React Native, Native Script and similar technologies?</title>
