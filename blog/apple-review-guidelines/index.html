@@ -111,38 +111,24 @@ Jasonelle · Will Apple forbid Cordova, React Native, Native Script and similar 
         </div>
         </div>
         <article class="content">
-            
-
-<p>If you want your app to be inside the <em>iOS</em> ecosystem it must pass the <a href="https://developer.apple.com/app-store/review/guidelines/">Appstore Review Guidelines</a>. Apple is known to be strict when approving apps. Since <em>Cordova</em>, <em>React Native</em>, <em>Native Script</em> and similars use <em>Javascript</em>, the sections <em>4.7</em> and <em>2.5.2</em> of the <em>Appstore Review Guidelines</em> and section <em>3.3.2</em> of the <a href="https://developer.apple.com/services-account/download?path=/Documentation/License_Agreements__Apple_Developer_Program03232K20/Apple_Developer_Program_License_Agreement_20200323.pdf">Apple Developer Program License Agreement</a> are the most relevant to this use case.</p>
-
-<h3 id="appstore-review-guidelines-2-5-2-software-requirements">Appstore Review Guidelines - &lsquo;2.5.2 Software Requirements&rsquo;</h3>
-
+            <p>If you want your app to be inside the <em>iOS</em> ecosystem it must pass the <a href="https://developer.apple.com/app-store/review/guidelines/">Appstore Review Guidelines</a>. Apple is known to be strict when approving apps. Since <em>Cordova</em>, <em>React Native</em>, <em>Native Script</em> and similars use <em>Javascript</em>, the sections <em>4.7</em> and <em>2.5.2</em> of the <em>Appstore Review Guidelines</em> and section <em>3.3.2</em> of the <a href="https://developer.apple.com/services-account/download?path=/Documentation/License_Agreements__Apple_Developer_Program03232K20/Apple_Developer_Program_License_Agreement_20200323.pdf">Apple Developer Program License Agreement</a> are the most relevant to this use case.</p>
+<h3 id="appstore-review-guidelines---252-software-requirements">Appstore Review Guidelines - &lsquo;2.5.2 Software Requirements&rsquo;</h3>
 <blockquote>
 <p>Apps should be self-contained in their bundles, and may not read or write data outside the designated container area, nor may they download, install, or execute code which introduces or changes features or functionality of the app, including other apps. Educational apps designed to teach, develop, or allow students to test executable code may, in limited circumstances, download code provided that such code is not used for other purposes. Such apps must make the source code provided by the Application completely viewable and editable by the user.</p>
 </blockquote>
-
-<h3 id="appstore-review-guidelines-4-7-html5-games-bots-etc">Appstore Review Guidelines - &lsquo;4.7 HTML5 Games, Bots, etc.&rsquo;</h3>
-
+<h3 id="appstore-review-guidelines---47-html5-games-bots-etc">Appstore Review Guidelines - &lsquo;4.7 HTML5 Games, Bots, etc.&rsquo;</h3>
 <blockquote>
 <p>Apps may contain or run code that is not embedded in the binary (e.g. HTML5-based games, bots, etc.), as long as code distribution isn’t the main purpose of the app, the code is not offered in a store or store-like interface, and provided that the software (1) is free or purchased using in-app purchase; (2) only uses capabilities available in a standard WebKit view (e.g. it must open and run natively in Safari without modifications or additional software); your app must use WebKit and JavaScript Core to run third-party software and should not attempt to extend or expose native platform APIs to third-party software; (3) is offered by developers that have joined the Apple Developer Program and signed the Apple Developer Program License Agreement; (4) does not provide access to real money gaming, lotteries, or charitable donations; (5) adheres to the terms of these App Review Guidelines (e.g. does not include objectionable content); and (6) does not offer digital goods or services for sale. Upon request, you must provide an index of software and metadata available in your app. It must include Apple Developer Program Team IDs for the providers of the software along with a URL which App Review can use to confirm that the software complies with the requirements above.</p>
 </blockquote>
-
-<h3 id="apple-developer-program-license-agreement-2020-03-23-3-3-2-program-requirements">Apple Developer Program License Agreement (2020-03-23) - 3.3.2 Program Requirements</h3>
-
+<h3 id="apple-developer-program-license-agreement-2020-03-23---332-program-requirements">Apple Developer Program License Agreement (2020-03-23) - 3.3.2 Program Requirements</h3>
 <blockquote>
-<p>Except as set forth in the next paragraph, an Application may not download or install executable code. Interpreted code may be downloaded to an Application but only so long as such code: (a) does not change the primary purpose of the Application by providing features or functionality that are inconsistent with the intended and advertised purpose of the Application as submitted to the App Store, (b) does not create a store or storefront for other code or applications, and &copy; does not bypass signing, sandbox, or other security features of the OS. (&hellip;)</p>
+<p>Except as set forth in the next paragraph, an Application may not download or install executable code. Interpreted code may be downloaded to an Application but only so long as such code: (a) does not change the primary purpose of the Application by providing features or functionality that are inconsistent with the intended and advertised purpose of the Application as submitted to the App Store, (b) does not create a store or storefront for other code or applications, and (c) does not bypass signing, sandbox, or other security features of the OS. (&hellip;)</p>
 </blockquote>
-
 <h3 id="analysis">Analysis</h3>
-
 <p>By reading those agreements and guidelines, we can understand that using <em>Javascript</em> files that specify <em>UIs</em> and <em>logic</em> are allowed. Those files can be inside the App bundle or remote fetched and interpreted, as long as they do not change the app dramatically from the one reviewed by Apple and uses the <a href="https://developer.apple.com/documentation/javascriptcore?language=objc">Javascript Core</a> framework to execute the code.</p>
-
 <p>If the App uses a <em>Web View</em> it should only allow behaviours within the <a href="https://developer.apple.com/documentation/webkit?language=objc">Web Kit</a>&rsquo;s <a href="https://webkit.org/status/">limitations</a>. Exposing <em>Native APIs</em> to <em>Web Views</em> or <em>Javascript Core</em> to third parties can be considered risky and the app may be deleted from <em>AppStore</em>. A clear definition of &ldquo;third party&rdquo; was not found, so maybe this can be interpreted as only applied to malicious code and libraries outside the app environment (google ads?). We have to see if Apps made with solutions like <em>Cordova</em>, <em>React Native</em>, <em>Native Script</em> (that heavily exposes <em>Native APIs</em> to <em>Web Views</em>) keep existing in <em>Apple</em> ecosystem after <a href="https://developer.apple.com/news/?id=03262020b">June 2020</a>.</p>
-
 <h4 id="progressive-web-apps">Progressive Web Apps</h4>
-
 <p>It&rsquo;s probable that the new guidelines would force many apps to be converted to <a href="https://en.wikipedia.org/wiki/Progressive_web_application"><em>PWA</em></a>. Howewer there are some limitations compared with native <em>iOS</em> apps (<a href="https://medium.com/@firt/progressive-web-apps-on-ios-are-here-d00430dee3a7">based on this post on medium</a>).</p>
-
 <ul>
 <li>The app can store offline data and files only up to 50 Mb.</li>
 <li>If the user doesn’t use the app for a few weeks, iOS will free up the app’s files. The icon will still be there on the home screen, and when accessed the app will be downloaded again.</li>
@@ -153,39 +139,24 @@ Jasonelle · Will Apple forbid Cordova, React Native, Native Script and similar 
 <li>On iPad, no access to work with Side or Split Views sharing the screen with other apps, PWAs will always take the whole screen.</li>
 <li>No Push Notifications, no icon badge or Siri integration.</li>
 </ul>
-
 <p>How can a <em>PWA</em> overcome those limitations?. Maybe for push notifications you could use <em>SMS</em> using <a href="https://www.twilio.com/sms">Twilio</a> or similar, or using a notification system that is web only. For features like <em>Bluetooth</em> then you only hope could be creating a native app or wait until <em>Web Kit</em> implements it.</p>
-
 <h3 id="alternatives">Alternatives?</h3>
-
 <p>There are some alternatives like <a href="https://felgo.com/">Felgo</a> and <a href="https://flutter.dev">Flutter</a> that uses native code with a custom rendering engine. Those may be possible to keep using because they do not expose <em>Native APIS</em> to <em>Web Kit</em> or <em>JavasScript Core</em>.</p>
-
 <h3 id="will-apple-kill-cordova-react-native-and-similars">Will Apple kill Cordova, React Native and similars?</h3>
-
 <p>Hopefully not. Those technologies are used by a huge amount of people and businesses. It would not be
 wise for <em>Apple</em> to only allow programming applications with native code. They would loose a huge amount
 of developers that does not like <em>Swift</em> or does not have the resources to build again their app with native
 technologies. Less developers means less number of apps in the Appstore, which means less hardware sold.</p>
-
 <p><em>Apple</em>&rsquo;s main revenue comes from selling hardware like <em>iPhone</em>, so a huge loss in developers is no good. But we can not be sure what is in <em>Apple</em>&rsquo;s plans. As they already killed off <em>Flash</em> and other technologies massively used.</p>
-
 <h3 id="what-it-means-for-jasonelle">What it means for Jasonelle?</h3>
-
 <p><em>Jasonelle</em> have a similar approach to app development as <em>React Native</em>. It exposes native APIs to Javascript using <em>JavaScript Core</em> framework. If Apple kills <em>React Native</em> and <em>Cordova</em> it will kill <em>Jasonelle</em> too.
 We can only hope that technologies that relies on exposing native APIS to <em>Javascript Core</em> can still be used, otherwise we will have to sadly put <em>Jasonelle</em> to sleep and move to other adventures.</p>
-
 <p>We hope for the best outcome and keep working on <em>Jasonelle</em> until that day.</p>
-
 <h3 id="conclusion">Conclusion</h3>
-
 <p>Reading this website <a href="https://www.appstorereviewguidelineshistory.com/">https://www.appstorereviewguidelineshistory.com/</a> is clear that section <code>4.7</code> was present in previous years with small fixes on each year. That would mean that this rule is not heavily enforced and may be depend on the mood of the reviewer and your luck to be aproved, which is basically a normal app review process.</p>
-
 <p>But is probable that many apps will be forced to be PWA converted since they will not meet the desing guidelines of minimum functionality and app like aesthetic.</p>
-
-<p>There was an issue in Mac Appstore for electron apps. <a href="https://github.com/electron/electron/issues/20027">https://github.com/electron/electron/issues/20027</a>, they, for a long period of time could send their apps using private apis (A not heavily enforced rule). But Apple changed and become more strict, so electron was forced to solve that issue with private apis.</p>
-
+<p>There was an issue in Mac Appstore for electron apps. <a href="https://github.com/electron/electron/issues/20027,">https://github.com/electron/electron/issues/20027,</a> they, for a long period of time could send their apps using private apis (A not heavily enforced rule). But Apple changed and become more strict, so electron was forced to solve that issue with private apis.</p>
 <p>Our opinion is that projects that exposes native APIs to <em>Javascript Core</em> will continue to be accepted, but Apple could change and be more strict about this rule in the future.</p>
-
 <p>Finally we can say that <em>Jasonelle</em> is still viable technology to be used.</p>
 
         </article>

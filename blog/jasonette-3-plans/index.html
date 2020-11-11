@@ -111,34 +111,23 @@ Jasonelle · Jasonette 3 Ideas and Thoughts
         </div>
         </div>
         <article class="content">
-            
-
-<h2 id="jasonette-beginnings">Jasonette Beginnings</h2>
-
+            <h2 id="jasonette-beginnings">Jasonette Beginnings</h2>
 <p><em>Jasonette</em> was born in early 2016 and made it&rsquo;s public debut in <a href="https://github.com/Jasonette/JASONETTE-iOS/tree/ac6ba988f93695f5851fd2c8457f56f2cf8b27ae">October 2016</a>.</p>
-
 <p>These are the technical hightlights that <a href="https://github.com/gliechtenstein">Ethan</a> defined for <em>Jasonette</em>.</p>
-
 <h3 id="features">Features</h3>
-
 <ul>
 <li>App loads over HTTP: Your app exists 100% as JSON, and loads from the cloud. No more hard-coding.</li>
 <li>An app in 30 minutes: No kidding, build an app in 30 minutes.</li>
 <li>Lowest possible learning curve: No programming experience required. There&rsquo;s only one thing you need to know: JSON. Which means you can build an app without &ldquo;becoming a programmer&rdquo;.</li>
 </ul>
-
 <h3 id="one-json-to-rule-them-all">One JSON to rule them all</h3>
-
 <p><em>Jasonette</em> simplifies the entire app building process down to nothing more than:</p>
-
 <ol>
 <li>Write a JSON markup</li>
 <li>Add the JSON url to <em>Jasonette</em></li>
 <li>Press play</li>
 </ol>
-
 <p>This is possible because <em>Jasonette</em> came up with a way to fit an entire app worth of logic into a single declarative JSON that just works™. This JSON grammar is used to express every aspect of your app, such as:</p>
-
 <ul>
 <li>Draw sophisticated views</li>
 <li>Call device API methods</li>
@@ -146,93 +135,72 @@ Jasonelle · Jasonette 3 Ideas and Thoughts
 <li>Respond to system events and user interaction</li>
 <li>Even change the JSON itself dynamically using templates.</li>
 </ul>
-
 <h3 id="app-over-http-until-now-the-only-thing-json-could-send-over-the-internet-was-raw-data">App-over-HTTP Until now, the only thing JSON could send over the Internet was raw data.</h3>
-
 <p>Normally apps would fetch remote data from the server for a connected experience, but the actual app logic would be hard-coded on the client side. This makes it hard to update and extend apps.</p>
-
 <p>But what happens when you can express an entire app logic as JSON?</p>
-
 <p>Then apps can be stored, processed, shared, and sent over the Internet just like any other JSON.</p>
-
 <h2 id="aftertoughts">Aftertoughts</h2>
-
 <p><em>Jasonette</em> bringed a whole new idea to mobile app development. We believe that
 new technologies such as <a href="https://developer.apple.com/xcode/swiftui/">Swift UI</a> were influenced
 by it, at least by some extend.</p>
-
 <p><em>Ethan</em> worked hard fulltime on <em>Jasonette</em> for nearly two years straight, until he <a href="http://jasonelle.com/docs/#/history">misteriously
 dissapeared</a>.</p>
-
 <p>Now we are nearly four years after <em>Jasonette</em> was born. And the ecosystem changed dramatically
 since <em>Jasonette</em>&rsquo;s conception.</p>
-
 <ul>
-<li><p><em>Javascript</em> is more standarized, robust and easier to use. Besides it´s one of the <a href="https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/">most used programming languages today</a>.</p></li>
-
-<li><p><em>Apple</em> created <a href="https://developer.apple.com/xcode/swiftui/">Swift UI</a> to ease <em>iOS</em> mobile app development. Also added new restrictions in <em>App Store</em>. Now is prohibited updating apps bypassing the review process. Also calling native functions without files bundled in the <em><a href="https://en.wikipedia.org/wiki/.ipa">IPA</a></em> may be seen as risky.</p></li>
-
-<li><p><em>Google</em> released <a href="https://flutter.dev/">Flutter</a> to ease development of <em>Android</em> Apps, and implemented <a href="https://flutter.dev/docs/get-started/flutter-for/declarative">Declarative UI</a> to compete with Apple&rsquo;s <em>Swift UI</em>.</p></li>
-
-<li><p><em><a href="https://reactnative.dev/">React Native</a></em> and <em><a href="https://www.nativescript.org/">NativeScript</a></em> became popular frameworks to create mobile apps using <em>Javascript</em>.</p></li>
+<li>
+<p><em>Javascript</em> is more standarized, robust and easier to use. Besides it´s one of the <a href="https://redmonk.com/sogrady/2020/02/28/language-rankings-1-20/">most used programming languages today</a>.</p>
+</li>
+<li>
+<p><em>Apple</em> created <a href="https://developer.apple.com/xcode/swiftui/">Swift UI</a> to ease <em>iOS</em> mobile app development. Also added new restrictions in <em>App Store</em>. Now is prohibited updating apps bypassing the review process. Also calling native functions without files bundled in the <em><a href="https://en.wikipedia.org/wiki/.ipa">IPA</a></em> may be seen as risky.</p>
+</li>
+<li>
+<p><em>Google</em> released <a href="https://flutter.dev/">Flutter</a> to ease development of <em>Android</em> Apps, and implemented <a href="https://flutter.dev/docs/get-started/flutter-for/declarative">Declarative UI</a> to compete with Apple&rsquo;s <em>Swift UI</em>.</p>
+</li>
+<li>
+<p><em><a href="https://reactnative.dev/">React Native</a></em> and <em><a href="https://www.nativescript.org/">NativeScript</a></em> became popular frameworks to create mobile apps using <em>Javascript</em>.</p>
+</li>
 </ul>
-
 <p>And many other changes that requires a new perspective on which elements <em>Jasonette</em> brings
 to the table.</p>
-
 <h2 id="the-road-to-jasonette-3">The Road to Jasonette 3</h2>
-
 <p>With the current state of the art, the road map for <em>Jasonette 3</em> would have more or less the following considerations.</p>
-
 <h3 id="embrace-javascript">Embrace Javascript</h3>
-
 <p>Using <em>JSON</em> as a programming language have advantages (easy to learn) and drawbacks (super strict, no comments). With the current state of <em>Javascript</em> is now imperative we embrace it
 as the language of <em>Jasonette</em> instead of <em>JSON</em>.</p>
-
 <p><em>Jasonette</em> already used <em>Javascript</em> to transform <em>JSON</em> and evaluate inline code, so it&rsquo;s a natural choice to make.</p>
-
 <h3 id="kernel-and-modules">Kernel and Modules</h3>
-
 <p>The arquitecture will transform to be more modular, using a <a href="https://en.wikipedia.org/wiki/Kernel_(operating*system)">Kernel</a> that handles operating
 system tasks and all the other features would be implemented as easy to change modules.
 Providing easier <em>maintanability</em>, <em>extendability</em> and overal <em>slimness</em> of the code base.</p>
-
 <h3 id="learn-from-swift-ui-and-flutter-declarative-ui">Learn from Swift UI and Flutter Declarative UI</h3>
-
 <p>Those are great technologies and <em>Jasonelle</em> can benefit if similar concepts are applied.</p>
-
-<h3 id="keep-ethan-s-vision-alive">Keep Ethan&rsquo;s Vision Alive</h3>
-
+<h3 id="keep-ethans-vision-alive">Keep Ethan&rsquo;s Vision Alive</h3>
 <ul>
-<li><p>Each app screen would be a single declarative style <em>Javascript</em> file that contains the data, logic and ui. So you can send them over and see a fully working app.</p></li>
-
-<li><p>Be easy to use so you can make an app in 30 minutes or less.</p></li>
-
-<li><p>Low learning curve. Aimed at people who are new in mobile app making. But powerful enough so you can create <em><a href="https://developer.apple.com/app-store/review/guidelines/">App Store worthy</a></em> apps.</p></li>
+<li>
+<p>Each app screen would be a single declarative style <em>Javascript</em> file that contains the data, logic and ui. So you can send them over and see a fully working app.</p>
+</li>
+<li>
+<p>Be easy to use so you can make an app in 30 minutes or less.</p>
+</li>
+<li>
+<p>Low learning curve. Aimed at people who are new in mobile app making. But powerful enough so you can create <em><a href="https://developer.apple.com/app-store/review/guidelines/">App Store worthy</a></em> apps.</p>
+</li>
 </ul>
-
 <h3 id="the-jasonette-promise">The Jasonette Promise</h3>
-
 <p>The build process will be the same. But instead of <em>JSON</em> will be <em>Javascript</em>.</p>
-
 <ol>
 <li>Write a <em>Javascript</em> file.</li>
 <li>Add the file to <em>Jasonette</em>.</li>
 <li>Press play.</li>
 </ol>
-
 <h3 id="great-docs">Great Docs</h3>
-
 <p>We want to have great documentation and plenty of example code.</p>
-
 <h2 id="jasonette-2">Jasonette 2</h2>
-
 <p><em>Jasonette 2</em> it´s officially in <strong>maintainance</strong> mode. No new features will be added
 and only critical security and bug fixes will be implemented. The final sunsetting of <em>Jasonette 2</em> will be when <em>Jasonette 3</em> stable is released, but that could take some time,
 so you could keep creating apps with <em>Jasonette 2</em> until version 3 cames out.</p>
-
 <h2 id="when-jasonette-3">When Jasonette 3?</h2>
-
 <p>That would depend. We aim to have something minimal working at the end of the year <em>2020</em>, but
 a fixed date is not defined yet since <em>sadly</em>, we are not full time developers at <em>Jasonelle</em>.</p>
 
